@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+h2{
+	animation:bs 1s alternate;
+}
+.line{
+	width:100px;
+	height:5px;
+	border-radius:5px;
+	background-color:#F60;
+	margin-bottom:20px;
+	transition:0.3s;
+	animation:dh 1s;
+}
+input[type=button]{
+	width:100px;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:5px;
+	background-color:transparent;
+	border:1px solid #f60;
+	
+}
+
+@keyframes dh{
+	0%{width:0;}
+	100%{width:100px;}
+}
+@keyframes bs{
+	0%{color:black;}
+	100%{color:#F60;
+	}
+</style>
+</head>
+
+<body>
+<h2>前端学院</h2>
+<div class="line"></div>
+<input type="button"  id="qhys"  value="切换样式" onclick="dj()"/>
+</body>
+</html>
